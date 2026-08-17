@@ -4,172 +4,281 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+   <!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Bookmark Manager</title>
+
+    <!-- Font Awesome -->
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
         integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous"
+        referrerpolicy="no-referrer"
+    />
+
+    <!-- CSS -->
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <!-- Nav Bar Start -->
+
+    <!-- ================= NAVBAR ================= -->
+
     <header>
+
         <div class="logoimg">
-            <img src="./images/logo 1.svg" alt="logo">
+            <img src="./images/logo 1.svg" alt="Bookmark Logo">
         </div>
+
         <nav>
-
             <ul class="nav-links">
-                <li><a href="">Features</a></li>
-                <li><a href="">Pricing</a></li>
-                <li><a href="">Contact</a></li>
-                <button id="login"><a href="">LOGIN</a></button>
+
+                <li>
+                    <a href="#features">Features</a>
+                </li>
+
+                <li>
+                    <a href="#pricing">Pricing</a>
+                </li>
+
+                <li>
+                    <a href="#contact">Contact</a>
+                </li>
+
+                <li>
+                    <button id="login">
+                        <a href="#">LOGIN</a>
+                    </button>
+                </li>
+
             </ul>
-
         </nav>
-        <i class="fa-solid fa-bars bars"></i>
-    </header>
-    <!-- Nav Bar Ennd -->
-    <!--Hero section 1 start  -->
-    <div class="hero">
-        <div class="content">
-            <div>
-                <h1>
-                    A Simple Bookmark
-                </h1>
-                <h1>
-                    Manager
-                </h1>
-            </div>
-            <div>
 
+        <!-- Mobile Menu Icon -->
+        <i class="fa-solid fa-bars bars"></i>
+
+    </header>
+
+
+    <!-- ================= HERO SECTION 1 ================= -->
+
+    <section class="hero">
+
+        <div class="content">
+
+            <div>
+                <h1>A Simple Bookmark</h1>
+                <h1>Manager</h1>
+            </div>
+
+            <div>
                 <p>
                     A clean and simple interface to organize your favourite
                     websites. Open a new browser tab and see your sites load
                     instantly. Try it for free.
                 </p>
-
             </div>
+
             <div class="btn">
-                <button id="first">Get it on Chrome</button>
-                <button id="second">Get it on Firefox</button>
+
+                <button id="first">
+                    Get it on Chrome
+                </button>
+
+                <button id="second">
+                    Get it on Firefox
+                </button>
+
             </div>
+
         </div>
+
+
         <div class="heroimg">
-            <img src="./images/2.png" alt="hero">
+
+            <img
+                src="./images/2.png"
+                alt="Bookmark Manager Preview"
+            >
+
+        </div>
+
+        <div class="rectangle"></div>
+
+    </section>
+
+
+    <!-- ================= FEATURES HEADING ================= -->
+
+    <section class="heading" id="features">
+
+        <h1>Features</h1>
+
+        <p>
+            Our aim is to make it quick and easy for you to access your
+            favourite websites.
+        </p>
+
+        <p>
+            Your bookmarks sync between your devices so you can access
+            them on the go.
+        </p>
+
+    </section>
+
+
+    <!-- ================= HERO SECTION 2 ================= -->
+
+    <section class="hero-2">
+
+        <div class="heroimg-2">
+
+            <img
+                src="./images/3.png"
+                alt="Bookmark in one click"
+            >
 
         </div>
 
 
+        <div class="content-2">
 
-    </div>
-    <div class="rectangle">
-
-    </div>
-    <!--Hero section 1 end  -->
-    <!--Hero section 2 start -->
-      <div class="heading">
-            <h1>Features</h1>
-            <p>
-                Our aim is to make it quick and easy for you to access your favourite</p> 
-              <p> websites. Your bookmarks sync between your devices so you can access</p> 
-               <p> them on the go.
-            </p>
-        </div>
-    <div class="hero-2">
-      
-       <div class="heroimg-2">
-            <img src="./images/3.png" alt="hero">
-
-        </div>
-         <div class="content-2">
             <div>
-                <h1>
-                 Bookmark in one click
-                </h1>
-               
+                <h1>Bookmark in one click</h1>
             </div>
+
             <div>
 
                 <p>
-                    Organize your bookmarks however you like. Our simple drag-and-drop interface gives you complete control over how you manage your favourite sites.
+                    Organize your bookmarks however you like. Our simple
+                    drag-and-drop interface gives you complete control
+                    over how you manage your favourite sites.
                 </p>
 
             </div>
+
             <div class="btn-2">
-                <button id="first-2">More Info</button>
-              
-            </div>
-        </div>
-    </div>
-    <div class="rectangle-2">
 
-    </div>
-    <!--Hero section 2 end -->
-<!--Hero section 3 start-->
- <div class="hero-3">
-      
-       
-         <div class="content-3">
-            <div>
-                <h1>Intelligent search
-                </h1>
-               
+                <button id="first-2">
+                    More Info
+                </button>
+
             </div>
+
+        </div>
+
+        <div class="rectangle-2"></div>
+
+    </section>
+
+
+    <!-- ================= HERO SECTION 3 ================= -->
+
+    <section class="hero-3">
+
+        <div class="content-3">
+
+            <div>
+                <h1>Intelligent search</h1>
+            </div>
+
             <div>
 
                 <p>
-                  Our powerful search feature will help you find saved sites in no time at all. No need to crawl through all of your bookmarks.
+                    Our powerful search feature will help you find saved
+                    sites in no time at all. No need to crawl through all
+                    of your bookmarks.
                 </p>
 
             </div>
+
             <div class="btn-3">
-                <button id="first-3">More Info</button>
-              
+
+                <button id="first-3">
+                    More Info
+                </button>
+
             </div>
+
         </div>
+
+
         <div class="heroimg-3">
-            <img src="./images/4.png" alt="hero">
+
+            <img
+                src="./images/4.png"
+                alt="Intelligent Search"
+            >
 
         </div>
-    </div>
 
-  <div class="rectangle-3"></div>
+        <div class="rectangle-3"></div>
+
+    </section>
 
 
-<!--Hero section 3 end-->
-<!--Hero section 4 start-->
- <div class="hero-4">
-       <div class="heroimg-4">
-            <img src="./images/5.png" alt="hero">
+    <!-- ================= HERO SECTION 4 ================= -->
+
+    <section class="hero-4">
+
+        <div class="heroimg-4">
+
+            <img
+                src="./images/5.png"
+                alt="Share your bookmarks"
+            >
 
         </div>
-       
-         <div class="content-4">
+
+
+        <div class="content-4">
+
             <div>
-                <h1>
-                    Share your bookmarks
-                </h1>
-               
+                <h1>Share your bookmarks</h1>
             </div>
+
             <div>
 
                 <p>
-                 Easily share your bookmarks and collections with others. Create a shareable link that you can send at the click of a button.
+                    Easily share your bookmarks and collections with
+                    others. Create a shareable link that you can send
+                    at the click of a button.
                 </p>
 
             </div>
-            <div class="btn-4">
-                <button id="first-4">More Info</button>
-              
-            </div>
-        </div>
-       
-    </div>
 
-  <div class="rectangle-4"></div>
-<!--Hero section 5 end-->
-  
+            <div class="btn-4">
+
+                <button id="first-4">
+                    More Info
+                </button>
+
+            </div>
+
+        </div>
+
+        <div class="rectangle-4"></div>
+
+    </section>
+    
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer id="contact">
+
+        <p>
+            © 2026 Bookmark Manager. All Rights Reserved.
+        </p>
+
+    </footer>
+
 
 </body>
 
